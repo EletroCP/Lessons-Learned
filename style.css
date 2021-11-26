@@ -1,9 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   background-color: rgb(253, 251, 251);
 }
-
 #cabecalho{
-  position: fixed;
   top: 0px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  background-color: rgba(212, 211, 211, 0.466);
+}
+#titulo{
+
+}
+#minha_foto{
+  width: 150px;
+}
+#center{
+  padding-top: 40px;
+  text-align: center;
+}
+#align_list{
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  text-align:center;
+  background-color:rgba(212, 211, 211, 0.466) ;
+
+}
+#licoes_aprendidas{
+  list-style: none;
+}
+#licoes_a_aprender{
+  list-style: none;
+  padding-left: 25px;
+}
+#asside_style{
+  background-color:rgba(212, 211, 211, 0.466) ;
 
 }
