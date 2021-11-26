@@ -41,3 +41,6 @@ body{
   background-color:rgba(212, 211, 211, 0.466) ;
 
 }
+#nav_style:hover{
+background-color: #036b52;
+}
