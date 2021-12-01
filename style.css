@@ -12,9 +12,16 @@ body{
   text-align: center;
   position: fixed;
   background-color: rgb(47, 193, 140);
-
+  font-family: Arial, Helvetica, sans-serif;
   ;
 }
+  #titulo{
+    color: azure;
+}
+ #descricao_titulo{
+   font-size: medium;
+ }
+
 #teste{
   display: flex;
   margin-top: 55px;
@@ -31,6 +38,8 @@ body{
   width: 100%;
   padding-left: 10px;
   padding-top: auto;
+  font-size: large;
+  line-height: 15px;
 }
 
 #align_list{
@@ -44,23 +53,33 @@ body{
 #licoes_aprendidas{
   list-style: none;
 }
+
 #licoes_a_aprender{
   list-style: none;
   padding-left: 25px;
 }
-#asside_style{
-  background-color:rgba(212, 211, 211, 0.466) ;
 
-}
 #nav_style:hover{
 background-color: #036b52;
 }
+
 #nav_style{
   background-color: rgb(124, 122, 122);
 }
-#article_style{
-  background-color: rgb(124, 122, 122);
-}
+
 #rodape{
   background-color: rgb(124, 122, 122);
+}
+
+#article-asid{
+  display: flex;
+}
+
+.lado-esquerdo{
+  background-color: rgb(124, 122, 122);
+}
+
+.lado-direito{
+  background-color:rgba(212, 211, 211, 0.466) ;
+
 }
