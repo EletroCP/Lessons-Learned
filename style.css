@@ -47,7 +47,7 @@ body{
   justify-content: center;
   padding-left: 30px;
   text-align:center;
-  background-color:rgba(212, 211, 211, 0.466) ;
+  background-color:rgba(255, 255, 255, 0.466) ;
 
 }
 #licoes_aprendidas{
@@ -58,6 +58,7 @@ body{
   list-style: none;
   padding-left: 25px;
 }
+
 
 #nav_style:hover{
 background-color: #036b52;
@@ -71,7 +72,7 @@ background-color: #036b52;
   background-color: rgb(124, 122, 122);
 }
 
-#article-asid{
+#article-aside{
   display: flex;
 }
 
@@ -80,6 +81,6 @@ background-color: #036b52;
 }
 
 .lado-direito{
-  background-color:rgba(212, 211, 211, 0.466) ;
+  background-color:rgba(255, 255, 255, 0.466) ;
 
 }
