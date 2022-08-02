@@ -1,86 +1,131 @@
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
+  text-align: center;
+  font-family: Roboto Slab, Times New Roman, Times, serif;
+  color: rgb(244, 211, 94);
 }
-body{
+
+body {
   background-color: rgb(253, 251, 251);
 }
-#cabecalho{
-  top: 0px;
-  width: 100%;
-  text-align: center;
-  position: fixed;
-  background-color: rgb(47, 193, 140);
-  font-family: Arial, Helvetica, sans-serif;
-  ;
-}
-  #titulo{
-    color: azure;
-}
- #descricao_titulo{
-   font-size: medium;
- }
 
-#teste{
+li {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  list-style: none;
+}
+
+#cabecalho {
+  background-color: rgb(13, 59, 102);
+  color: azure;
+  box-shadow: black 0 3px 3px;
   display: flex;
-  margin-top: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  justify-content: space-between;
+  top: 0;
   width: 100%;
-  background-color: rgb(124, 122, 122);
+
 }
-#minha_foto{
-  width: 130px; 
+
+#titulo {
+  margin-left: 4px;
+}
+
+#infos {
+  display: flex;
+}
+
+#descricao_titulo {
+  font-size: medium;
+}
+
+#minha_foto {
+  border: solid 2px white;
+  border-radius: 100px;
+  max-height: 7vw;
   text-align: left;
-
+  margin: 4px 7px 0 0;
+  max-width: 7vw;
 }
 
-#text_align{
+#teste {
+  display: flex;
+  margin-top: 110px;
+  background-color: rgb(40, 175, 176);
+}
+
+#text_align {
+  text-align: center;
   width: 100%;
-  padding-left: 10px;
-  padding-top: auto;
-  font-size: large;
+  padding: 2%;
   line-height: 15px;
 }
 
-#align_list{
+#align_list {
   display: flex;
-  justify-content: center;
-  padding-left: 30px;
-  text-align:center;
-  background-color:rgba(255, 255, 255, 0.466) ;
-
+  background-color: rgb(25, 100, 126);
+  justify-content: space-evenly;
 }
-#licoes_aprendidas{
+
+#licoes_aprendidas {
   list-style: none;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   list-style: none;
-  padding-left: 25px;
 }
 
-
-#nav_style:hover{
-background-color: #036b52;
-}
-
-#nav_style{
-  background-color: rgb(124, 122, 122);
-}
-
-#rodape{
-  background-color: rgb(124, 122, 122);
-}
-
-#article-aside{
+#articlesContainer {
+  background-color: rgb(40, 175, 176);
   display: flex;
+  font-size: large;
+  align-items: center;
 }
 
-.lado-esquerdo{
-  background-color: rgb(124, 122, 122);
+.lado-esquerdo {
+  width: 50vw;
+  text-align: center;
 }
 
-.lado-direito{
-  background-color:rgba(255, 255, 255, 0.466) ;
+.lado-direito {
+  text-align: center;
+  width: 50vw;
+}
 
+#rodape {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(31, 39, 27);
+  width: 100vw;
+}
+
+#rodape:hover {
+  background-color: rgb(238, 150, 75);
+  color: black;
+}
+
+#nav_style {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4px;
+}
+
+#contactContainer {
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+}
+
+#logos {
+  width: 1vw;
+  height: 2vh;
 }

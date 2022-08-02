@@ -2,31 +2,43 @@
 <html lang="en">
 
 <head>
+  <link rel="Lamp icon" href="./images/icons/titleIcon.ico">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Lessons Learned</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=M+PLUS+1+Code:wght@300&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header id="cabecalho">
-    <h1 id="titulo">Lessons Learned</h1>
-    <p>Projeto de lições aprendidas em HTML e CSS</p>
+    <div id="infos">
+      <div>
+        <h1 id="titulo" >Lessons Learned</h1>
+        <h1>By Trybe</h1>
+      </div>
+    </div>
+    <h1>Projeto de lições <br> aprendidas em HTML e CSS</h1>
+    <a href="https://github.com/EletroCP" target="_blank" >
+      <img id="minha_foto" src="./images/foto.png" alt="Foto de Breno Laskavski Lopes">
+    </a>
   </header>
-  <section id="section">
+  <section>
     <div id="teste">
-      <img id="minha_foto" src="foto.jpg" alt="Foto de Breno Laskavski Lopes">
-      <p id="text_align">
+      <h2 id="text_align">
         Fazem poucos anos que me interessei por programação, conheci o assunto vendo alguns canais no youtube de
         entreterimento, pessoas contando como se interessaram por programação e mostrando alguns de seus projetos e isso
         serviu de apoio para que fosse atrás disso.
         Fiz alguns cursos e depois de alguns anos conheci a Trybe onde encontrei um bom caminho para poder prosseguir.
-      </p>
+      </h2>
     </div>
     <div id="align_list">
-      <table>
-        <ol id="licoes_aprendidas"><strong>Lições aprendidas</strong>
+      <div>
+        <h3>Lições aprendidas</h3>
+        <ol id="licoes_aprendidas">
           <li>Softskills</li>
           <li>Bash</li>
           <li>Git</li>
@@ -38,7 +50,10 @@
           <li>Seletores</li>
           <li>HTML Semântico</li>
         </ol>
-        <ul id="licoes_a_aprender"><Strong>Lições a aprender</Strong>
+      </div>
+      <div>
+        <h3>Lições a aprender</h3>
+        <ul id="licoes_a_aprender">
           <li>JavaScript</li>
           <li>Array</li>
           <li>Loop For</li>
@@ -48,31 +63,36 @@
           <li>Playground</li>
           <li>DOM</li>
           <li>Eventos</li>
-          <li>Web Storage</li>
-        </ul>
-      </table>
-    </div id="article-aside">
-    <article class="lado-esquerdo">
-      <p>
-        Quando comecei na Trybe não tinha certeza de como seria ou o que esperar exatamente tanto do método de ensino,
-        dos professores ou dos alunos. Mas hoje logo no primeiro projeto sou só elogios para com toda a equipe e
-        colegas, todos sempre se ajudando a todo momento, esse método "livre" de ensino em que a pessoa se
-        auto-disciplina e tudo mais só faz com que eu esteja adorando cada dia aqui. </p>
-
-      <aside class="lado-direito">
-        <p>Meu maior desafio está sendo sair da minha zona de conforto e interagir com as pessoas, sou uma pessoa até
-          que
-          timida mas logo no começo com as breakout rooms a interação com os outros alunos tem ajudado muito.</p>
-
-      </aside>
-    </article>
+          <li>Web Storage</li> 
+        </ol>
+      </div>
+    </div>
+      <article id="articlesContainer">
+        <aside class="lado-esquerdo">
+          <h4>
+              Encarar um novo desafio pode ser dificil, o importante é continuar tentando
+          </h4>
+        </aside>
+        <aside class="lado-direito">
+          <h4>
+            Para mim o maior desafio está sendo sair da minha zona de conforto, as interação com os outros alunos tem ajudado muito.
+          </h4>
+        </aside>
+      </article>
   </section>
 
-  <nav id="nav_style">
-    <a href="https://www.betrybe.com/" target="_blank">Trybe</a>
-  </nav>
   <footer id="rodape">
-
+    <nav id="nav_style">
+      <div>
+        <a href="https://www.betrybe.com/" target="_blank">Trybe</a>
+      </div>
+      <div id="contactContainer">
+        <p>Contact-me:</p>
+        <a href="https://www.linkedin.com/in/breno-laskavski-lopes-a03093226/" target="_blank">
+          <img id="logos" src="./images/LDLogo.png" alt="Logo LinkedIn">
+        </a>
+      </div>
+    </nav>
   </footer>
 </body>
 
